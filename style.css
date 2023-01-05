@@ -1,9 +1,17 @@
 
 .nav{
     display: flex;
-    padding: 12px;
+    margin: 10px 150px 40px 0px;
     gap: 12px;
     list-style-type: none;
+}
+
+.top-head{
+    background-color: #1F2937;
+}
+
+.header{
+    margin: 10px 0px 40px 150px;
 }
 
 .options{
@@ -14,9 +22,39 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+
+.catch{
+    
+    width: 300px;
+    align-items: center;
+}
+
+.header-img{
+    display:flex;
+    margin-right: 150px;
+}
+
+.img-one{
+    width: 400px;
+    height: auto;
+    margin-bottom: 20px;
     
 }
 
 .sub-heading{
     display:flex;
+    justify-content: space-between;
+    margin-left: 150px;  
+}
+
+.catch > h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight:bolder;
+}
+.catch > p{
+    color: #E5E7EB;
+    font-size: 18px;
 }

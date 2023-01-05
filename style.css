@@ -1,0 +1,22 @@
+
+.nav{
+    display: flex;
+    padding: 12px;
+    gap: 12px;
+    list-style-type: none;
+}
+
+.options{
+    display: flex;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.sub-heading{
+    display:flex;
+}

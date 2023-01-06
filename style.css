@@ -1,5 +1,15 @@
 
 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
 .nav{
     display: flex;
     margin: 10px 150px 40px 0px;
@@ -96,7 +106,7 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    margin-top: 30px;
 }
 
 .containers{
@@ -111,6 +121,7 @@ button{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin-bottom: 50px;
 }
 
 .item >img{

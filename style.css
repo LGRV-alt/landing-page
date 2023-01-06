@@ -51,19 +51,25 @@ button{
     
     width: 300px;
     align-items: center;
+
     
 }
 
 .header-img{
     display:flex;
     margin-right: 150px;
+    height: 400px;
+    flex:1;
+    margin-left: 20px;
+    
     
 }
 
 .img-one{
-    width: 400px;
+    width: 100%;
     height: auto;
     margin-bottom: 20px;
+    object-fit: cover;
     
 }
 
